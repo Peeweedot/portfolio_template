@@ -103,5 +103,23 @@ section > p{
 form{
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  padding: 15px;
+}
+
+label{
+  background-color: rgba(114, 114, 114, 0.1);
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  line-height: 45px;
+  vertical-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+label > input{
+  width: 100%;
+  margin-left: 5px;
 }
