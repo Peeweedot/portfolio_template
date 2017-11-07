@@ -107,7 +107,8 @@ form{
 }
 
 label{
-  width: 50%;
+  width: 20%;
+  text-align: center;
 }
 
 .label{
@@ -123,7 +124,29 @@ label{
   font-family: sans-serif;
 }
 
-.label > label > input{
-  width: 80%;
+.message{
+  height: auto;
+}
+
+.input, textarea{
+  width: 100%;
+  padding: 10px;
   margin: auto;
+}
+
+textarea{
+  height: 250px;
+}
+
+#send{
+  width: 25%;
+  margin: auto;
+  height: 85px;
+  border: none;
+  background-color: #248ff2;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+
 }
