@@ -1,14 +1,17 @@
 body{
   background-color: black;
   overflow-x: hidden;
-  width: 800px;
+  width: 100%;
   margin: auto;
 }
+
+/*Header & nav */
 
 .head{
   height: 250px;
   width: 100%;
   background-color: white;
+  border-bottom: 2px solid #727272;
 }
 
 nav{
@@ -24,4 +27,11 @@ nav > ul > li{
   padding: 15px;
   margin: auto;
   text-align: center;
+}
+
+/*Container */
+.container{
+  width: 85%;
+  background-color: white;
+  margin: auto;
 }
