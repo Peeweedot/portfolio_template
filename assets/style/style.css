@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+  width: 800px;
+  margin: auto;
+}
+
+.head{
+  height: 250px;
+  width: 100%;
+  background-color: white;
+}
+
+nav{
+  margin: auto;
+}
+
+nav > ul{
+  display: inline-flex;
+  margin: auto;
+}
+
+nav > ul > li{
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
