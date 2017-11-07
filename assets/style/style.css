@@ -98,3 +98,9 @@ section > p{
   color: white;
   background-color: black;
 }
+
+/*Formulaire de contact */
+form{
+  display: flex;
+  flex-direction: column;
+}
