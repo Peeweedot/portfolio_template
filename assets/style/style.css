@@ -18,6 +18,8 @@ body{
   height: 125px;
   line-height: 125px;
   vertical-align: center;
+  font-weight: bold;
+  font-family: 'Lemon';
   font-size: 45px;
   text-align: center;
 }
@@ -74,9 +76,19 @@ nav > ul > li > a:hover{
   font-size: 25px;
   font-weight: bold;
   vertical-align: center;
+  font-family: 'Heading';
 }
 
 /*section*/
+
+section{
+  border-bottom: 2px solid #727272;
+  padding-bottom: 15px;
+}
+
+section > p{
+  padding: 15px;
+}
 
 .insider{
   height: auto;
