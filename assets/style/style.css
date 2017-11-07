@@ -83,7 +83,6 @@ nav > ul > li > a:hover{
 
 section{
   border-bottom: 2px solid #727272;
-  padding-bottom: 15px;
 }
 
 section > p{
@@ -97,6 +96,52 @@ section > p{
 .comp, .top{
   color: white;
   background-color: black;
+}
+
+/* Contenu */
+
+.contenu{
+  background-color: rgba(114, 114, 114, 0.8);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.left, .right{
+  margin: auto;
+}
+
+/*Gallerie*/
+
+.gallerie{
+  display: flex;
+  flex-direction: row;
+}
+
+.img > img{
+  width: 125px;
+  height: 125px;
+  transition: 1s ease;
+}
+
+.img > img:hover{
+  width: 250px;
+  height: 250px;
+}
+
+.img{
+  padding: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.img > a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
 }
 
 /*Formulaire de contact */

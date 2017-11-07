@@ -28,13 +28,35 @@
       <div class="titre_section">
         <h1>Titre de section</h1>
       </div>
-      <p>test ici pour voir</p>
+      <div class="contenu">
+        <div class="left">
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+          <p>test ici pour voir</p>
+        </div>
+        <div class="right">
+          <p>test ici pour voir</p>
+        </div>
+      </div>
     </section>
-    <section class="insider gallerie">
+    <section class="insider">
       <div class="titre_section">
         <h1>Titre de section</h1>
       </div>
-      <p>test ici pour voir</p>
+      <div class="gallerie">
+        <div class="img"><img src="#"><a href="#">Blank</a></div>
+        <div class="img"><img src="#t"><a href="#">Blank</a></div>
+        <div class="img"><img src="y#"><a href="#">Blank</a></div>
+        <div class="img"><img src="#"><a href="#">Blank</a></div>
+        <div class="img"><img src="#"><a href="#">Blank</a></div>
+        <div class="img"><img src="#"><a href="#">Blank</a></div>
+      </div>
     </section>
     <section class="insider comp">
       <div class="titre_section">
