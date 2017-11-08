@@ -1,100 +1,46 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>
-    Portfolio Vitrine
-  </title>
-  <meta charset="utf-8">
   <link rel="stylesheet" href="assets/style/reset.css">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/bootsratp.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <meta charset="utf-8">
+  <title>Portfolio vitrine</title>
 </head>
 <body>
-  <div class="head">
-    <div id="titre_site">
-      Votre titre
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">Blank</a></li>
-        <li><a href="#">Blank</a></li>
-        <li><a href="#">Blank</a></li>
-        <li><a href="#">Blank</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="container">
-    <section class="insider top">
-      <div class="titre_section">
-        <h1>Titre de section</h1>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
-      <div class="contenu">
-        <div class="left">
-          <img src="#">
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-          <p>test ici pour voir</p>
-        </div>
-        <div class="right">
-          <img src="#">
-          <p>test ici pour voir</p>
-        </div>
+      <div class="modal-body">
+        ...
       </div>
-    </section>
-    <section class="insider">
-      <div class="titre_section">
-        <h1>Titre de section</h1>
-      </div>
-      <div class="gallerie">
-        <div class="img"><img src="#"><a href="#">Blank</a></div>
-        <div class="img"><img src="#t"><a href="#">Blank</a></div>
-        <div class="img"><img src="y#"><a href="#">Blank</a></div>
-        <div class="img"><img src="#"><a href="#">Blank</a></div>
-        <div class="img"><img src="#"><a href="#">Blank</a></div>
-        <div class="img"><img src="#"><a href="#">Blank</a></div>
-      </div>
-    </section>
-    <section class="insider comp">
-      <div class="titre_section">
-        <h1>Titre de section</h1>
-      </div>
-      <div class="contenu">
-      <div class="left">
-        <p>test ici pour voir</p>
-      </div>
-      <div class="center">
-        <p>test ici pour voir</p>
-      </div>
-      <div class="right">
-        <p>test ici pour voir</p>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
-    </section>
-    <section class="insider contact">
-      <div class="titre_section">
-        <h1>Contact</h1>
-      </div>
-      <form method="post" action="post.php">
-        <div class="label">
-          <label for="name">Nom </label><input type="text" id="name" class="input"  required>
-        </div>
-        <div class="label">
-          <label for="surname">Prénom </label><input type="text" id="surname" class="input" required>
-        </div>
-        <div class="label">
-          <label for="number">Numéro de téléphone </label><input type="tel" id="number" class="input" required>
-        </div>
-        <div class="label message">
-          <label for="message">Votre message</label><textarea></textarea>
-        </div>
-        <input type="submit" id="send">
-      </form>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>
