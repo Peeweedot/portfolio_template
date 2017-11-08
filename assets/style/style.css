@@ -102,14 +102,37 @@ section > p{
 
 .contenu{
   background-color: rgba(114, 114, 114, 0.8);
-  padding: 15px;
   display: flex;
   flex-direction: row;
   height: auto;
 }
 
-.left, .right{
+.left, .center, .right{
+  height: 800px;
+  width: 100%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.left, .center, .right{
+  margin: 0;
+  padding: 15px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.left > img, .right > img{
+  width: 150px;
+  height: 150px;
+  margin-top: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left > p, .center > p, .right > p{
+  margin: auto;;
 }
 
 /*Gallerie*/

@@ -30,6 +30,7 @@
       </div>
       <div class="contenu">
         <div class="left">
+          <img src="#">
           <p>test ici pour voir</p>
           <p>test ici pour voir</p>
           <p>test ici pour voir</p>
@@ -41,6 +42,7 @@
           <p>test ici pour voir</p>
         </div>
         <div class="right">
+          <img src="#">
           <p>test ici pour voir</p>
         </div>
       </div>
@@ -62,7 +64,17 @@
       <div class="titre_section">
         <h1>Titre de section</h1>
       </div>
-      <p>test ici pour voir</p>
+      <div class="contenu">
+      <div class="left">
+        <p>test ici pour voir</p>
+      </div>
+      <div class="center">
+        <p>test ici pour voir</p>
+      </div>
+      <div class="right">
+        <p>test ici pour voir</p>
+      </div>
+    </div>
     </section>
     <section class="insider contact">
       <div class="titre_section">
