@@ -80,7 +80,7 @@
       <div class="titre_section">
         <h1>Contact</h1>
       </div>
-      <form method="post">
+      <form method="post" action="post.php">
         <div class="label">
           <label for="name">Nom </label><input type="text" id="name" class="input"  required>
         </div>
